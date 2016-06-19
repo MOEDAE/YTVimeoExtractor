@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name         = "YTVimeoExtractor"
-  s.version      = “1.2.0m”
+  s.name         = 'YTVimeoExtractor'
+  s.version      = '1.2.1'
   s.summary      = "Fetches Vimeo's mp4 URLs for iOS."
   s.description  = <<-DESC
                     YTVimeoExtractor is a class which lets you get the iOS
@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
                     MPMoviePlayerController, no need to use a UIWebView.
                     DESC
   s.homepage     = "https://github.com/MOEDAE/YTVimeoExtractor"
-  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Louis Larpin" => "louis.larpin@gmail.com" }
-  s.source       = { :git => "https://github.com/MOEDAE/YTVimeoExtractor.git", :tag => “1.2.0m” }
+  s.source       = { :git => "https://github.com/MOEDAE/YTVimeoExtractor.git", :tag => '1.2.1' }
 
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
